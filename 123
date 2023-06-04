@@ -1,0 +1,259 @@
+try {
+            switch (uid) {
+                case "BL01":
+                    switch (weekday) {
+                        case "1":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27&%24top=30&%24format=JSON";
+                            break;
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                        case "6":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "7":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27&%24top=30&%24format=JSON";
+                            break;
+                        case "週日":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27&%24top=30&%24format=JSON";
+                            break;
+                    }
+                    break;
+                case "BL05":
+                    switch (weekday) {
+                        case "1":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                        case "6":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "7":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27&%24top=30&%24format=JSON";
+                            break;
+                        case "週日":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                    }
+                    break;
+                case "BL23":
+                    switch (weekday) {
+                        case "1":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                        case "6":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "7":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27&%24top=30&%24format=JSON";
+                            break;
+                        case "週日":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                    }
+                    break;
+                case "G01":
+                    switch (weekday) {
+                        case "1":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                        case "6":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "7":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "假日":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                    }
+                    break;
+                case "G19":
+                    switch (weekday) {
+                        case "1":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                        case "6":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "7":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                        case "假日":
+                            urlString = "https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON";
+                            break;
+                    }
+                    break;
+            }
+
+            URL url = new URL(urlString);
+            if (urlString.startsWith("https")) {
+                TrustManager[] trustAllCerts = new TrustManager[]{
+                        new X509TrustManager() {
+                            @Override
+                            public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+
+                            }
+
+                            @Override
+                            public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+
+                            }
+
+                            @Override
+                            public X509Certificate[] getAcceptedIssuers() {
+                                return new X509Certificate[0];
+                            }
+                        }
+                };
+
+                SSLContext sc = SSLContext.getInstance("TLS");
+                sc.init(null, trustAllCerts, new SecureRandom());
+                SSLParameters defsslparms = sc.getDefaultSSLParameters();
+                String[] defprotocols = defsslparms.getProtocols();
+                Log.d(TAG, "default ssl parameters = " + defprotocols.toString());
+
+                SSLParameters supsslparms = sc.getSupportedSSLParameters();
+                String[] supprotocols = supsslparms.getProtocols();
+                Log.d(TAG, "support ssl parameters = " + supprotocols.toString());
+
+                https = (HttpsURLConnection) url.openConnection();
+                https.setSSLSocketFactory(sc.getSocketFactory());
+                https.setHostnameVerifier(new HostnameVerifier() {
+                    @Override
+                    public boolean verify(String hostname, SSLSession session) {
+                        Log.d(TAG, "verify(), " + hostname);
+                        return true;
+                    }
+                });
+                http = https;
+            } else {
+                http = (HttpURLConnection) url.openConnection();
+            }
+            //if (!mAuthToken.equals("")) {     // 非本機要加
+            //    http.setRequestProperty("Authorization", mAuthToken);
+            //}
+
+            //取得當下的UTC時間，Java8有提供時間格式DateTimeFormatter.RFC_1123_DATE_TIME
+            //但是格式與C#有一點不同，所以只能自行定義
+//            String xdate = HMAC_SHA1.getServerTime();//
+//            String SignDate = "x-date: " + xdate;
+//            Log.d(TAG, "date: "+xdate);
+//
+//            String Signature="";
+//            try {
+//                //取得加密簽章
+//                Signature = HMAC_SHA1.Signature(SignDate, appKey);
+//            } catch (SignatureException e1) {
+//                // TODO Auto-generated catch block
+//                e1.printStackTrace();
+//                return false;
+//            }
+//            String sAuth = "hmac username=\"" + appID + "\", algorithm=\"hmac-sha1\", headers=\"x-date\", signature=\"" + Signature + "\"";
+
+            http.setReadTimeout(3000);
+            http.setConnectTimeout(60000);
+            http.setRequestMethod("GET");
+//            http.setRequestProperty("Authorization", sAuth);
+//            http.setRequestProperty("x-date", xdate);
+            //http.setRequestProperty("Accept-Encoding", "gzip");
+            http.setDoInput(true);
+            http.setDoOutput(false);
+            http.setRequestProperty("Content-Type", "application/json;charset=UTF-8");//設定訊息的型別
+            http.setRequestProperty("Accept-Charset", "UTF-8");
+            http.setRequestProperty("Authorization", "Bearer " + token);
+            responseCode = http.getResponseCode();
+            writeLog(Logger.LEVEL_INFO, TAG + ", httpGet(),response code = " + responseCode);
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+                InputStream in = http.getInputStream();
+                data = readStream(in);
+                writeLog(Logger.LEVEL_INFO, TAG + ", httpGet(), receved data:" + data);
+                in.close();
+                bRet = true;
+            } else if (responseCode >= 300 && responseCode <= 399) {
+                urlString = http.getHeaderField("Location");
+                writeLog(Logger.LEVEL_WARNING, "redir to " + urlString);
+            } else {
+                responseMessage = http.getResponseMessage();
+                writeLog(Logger.LEVEL_ERROR, TAG + ", httpGet(), error = " + responseMessage);
+            }
+        }
+        
+        
+        
+                StationID eq 'BL11' and DestinationStaionID eq 'BL01' and ServiceDay/ServiceTag eq '平日'
+                or
+                StationID eq 'BL11' and DestinationStaionID eq 'BL05' and ServiceDay/ServiceTag eq '平日'
+                or
+                StationID eq 'BL11' and DestinationStaionID eq 'BL23' and ServiceDay/ServiceTag eq '平日'
+                or
+                StationID eq 'G12' and DestinationStaionID eq 'G01' and ServiceDay/ServiceTag eq '平日'
+                or
+                StationID eq 'G12' and DestinationStaionID eq 'G19' and ServiceDay/ServiceTag eq '平日'
+        https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%B9%B3%E6%97%A5%27&%24top=30&%24format=JSON
+        
+        
+        StationID eq 'BL11' and DestinationStaionID eq 'BL01' and ServiceDay/ServiceTag eq '週六'
+        or
+        StationID eq 'BL11' and DestinationStaionID eq 'BL05' and ServiceDay/ServiceTag eq '週六'
+        or
+        StationID eq 'BL11' and DestinationStaionID eq 'BL23' and ServiceDay/ServiceTag eq '週六'
+        or
+        StationID eq 'G12' and DestinationStaionID eq 'G01' and ServiceDay/ServiceTag eq '假日'
+        or
+        StationID eq 'G12' and DestinationStaionID eq 'G19' and ServiceDay/ServiceTag eq '假日'
+        
+        https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E5%85%AD%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON
+                        
+                        
+        StationID eq 'BL11' and DestinationStaionID eq 'BL01' and ServiceDay/ServiceTag eq '週日'
+	or
+        StationID eq 'BL11' and DestinationStaionID eq 'BL05' and ServiceDay/ServiceTag eq '週日'
+	or
+        StationID eq 'BL11' and DestinationStaionID eq 'BL23' and ServiceDay/ServiceTag eq '週日'
+        or
+        StationID eq 'G12' and DestinationStaionID eq 'G01' and ServiceDay/ServiceTag eq '假日'
+        or
+        StationID eq 'G12' and DestinationStaionID eq 'G19' and ServiceDay/ServiceTag eq '假日'
+        
+        
+    
+        
+        https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/StationTimeTable/TRTC?%24filter=%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27%20%09or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL05%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27%20%09or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27BL11%27%20and%20DestinationStaionID%20eq%20%27BL23%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E9%80%B1%E6%97%A5%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G01%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27%20%20%20%20%20%20%20%20%20or%20%20%20%20%20%20%20%20%20StationID%20eq%20%27G12%27%20and%20DestinationStaionID%20eq%20%27G19%27%20and%20ServiceDay%2FServiceTag%20eq%20%27%E5%81%87%E6%97%A5%27&%24top=30&%24format=JSON
+
+        
+        
+        
+        洛陽停車場
+        開封西寧路口
+        
+        
+        
+        
+        //     "StopUID": "TPE12451"萬華運動中心 去程 聯合醫院中興院區   回程東園      去程 捷運台大醫院站   回程五股     "StationUID": "TPE1816"
+//             "StopUID": "TPE12449"洛陽停車場 去程 聯合醫院中興院區   回程東園        "StationUID": "TPE1001450"
+//             "StopUID": "TPE125645"福星公園 " 去程 聯合醫院中興院區   回程東園       "StationUID": "TPE1001449"
+
+        
+        
+        
+        
+        
+        
+        
